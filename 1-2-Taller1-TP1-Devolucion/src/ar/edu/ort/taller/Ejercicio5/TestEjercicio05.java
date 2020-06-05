@@ -1,7 +1,5 @@
 package ar.edu.ort.taller.Ejercicio5;
 
-import ar.edu.ort.taller.Ejercicio5.AnioV2;
-
 public class TestEjercicio05 {
 
 	public static void main(String[] args) {		
