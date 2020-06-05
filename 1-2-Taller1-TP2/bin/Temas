@@ -1,0 +1,21 @@
+AGREGACION Y COMPOSICION
+
+COMPOSICION: Crea al objeto dentro de la clase
+
+AGREGACION: El objeto es instanciado fuera de la clase, puede pertenecer a algun lado mas
+
+Mas notas en la clase persona y en el main
+
+Notas de construccton con setters en clase Persona
+
+	// NOTAS COMPOSICION Y AGREGACION
+	// Si lo hago como agregacion, lo que le vaya a agregar a la clase no
+	// necesariamente viva lo mismo que esta clase
+	// Puede seguir existiendo si este objeto ya no existe. Es agregacion si se crea
+	// fuera de la clase
+	// Ejemplo telefono, puede que lo tenga mas de una persona, por ende si un
+	// objeto de persona desaparece, el objeto telefono
+	// sigue existiendo ya que fue agregacion, se instancio fuera de la clase
+	// Si lo hacemos con composicion, lo crea la clase misma, cuando muere el objeto
+	// de esta clase tambien muere este
+	// Esta clase llevaria todo el control de ese objeto
